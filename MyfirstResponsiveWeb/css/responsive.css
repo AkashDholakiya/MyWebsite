@@ -1,0 +1,126 @@
+*{
+    
+    font-size: 11px;
+
+}
+.navbar{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar ul{
+    margin-top: 20px;
+}
+.navbar .link{
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0px 1px;
+    margin: -10px 1px;
+}
+.navbar .link a{
+    font-size: 10px;
+    padding: 6px 0px;
+}
+/* .navbar img{
+    display: block;
+    margin: 2px auto;
+    margin-top: 14px;
+} */
+
+/* index 1 */
+#index1{
+    height: 170px;
+}
+#index1::before{
+    height: 528px;
+}
+
+#index1 h1{
+    color: blue;
+    padding: 12px;
+    font-size: 10px;
+    font-family: monospace;
+    box-shadow: 0px 0px 50px;
+    border-radius: 22px;
+}
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 4px;
+    flex-direction: column;
+}
+.con1 p{
+    font-size: 8px;
+    text-align: center;
+}
+.con1 span{
+    font-size: 8px;
+}
+#btn{
+    margin: -30px 11px;
+    padding: 6px 11px;
+    border-radius: 13px;
+    border: 3px solid blue;
+    background-color: black;
+    color: blue;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.heading{
+    font-size: 17px;
+    width: 168px;
+}
+
+#index2{
+    margin: 65px 4px;
+}
+#index2 .subindex{
+    margin: 39px 5px;
+}
+#index2 .box{
+    width: 216px;
+    height: 249px;
+}
+#index2 .box .cl{
+    height: 30px;
+    width: 111px;
+}
+#index2 img{
+    width: 110px;
+    height: 110px;
+}
+#index2 .box p{
+    margin: 17px 6px;
+    font-size: 10px;
+}
+
+#index3 .con2 img {
+    margin: 60px 20px;
+    height: 38px;
+    width: 38px;
+}
+
+#index4 .heading1{
+    font-size: 18px;
+}
+
+#index4 .con3 form .inp {
+    margin: 18px 23px;
+    padding: 2px 26px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+#index4 .con3 form #textarea {
+    height: 56px;
+    width: 134px;
+}
+#index4::before{    
+    height: 376px;
+}
+

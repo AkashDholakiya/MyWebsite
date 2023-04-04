@@ -1,0 +1,114 @@
+/* Navbar */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    animation-name: bgimg;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    overflow: hidden; 
+}
+canvas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+@keyframes bgimg{
+    100%{
+        background-color: whitesmoke;
+    }
+}
+#p2{
+    padding: 5px 29px;
+    font-style: oblique;
+    overflow: hidden; 
+    border-right: 2px solid red; 
+    white-space: nowrap; /*Keeps the content on a single line*/
+    letter-spacing: .05em;
+    animation: para 2s steps(40, end),blink-caret 1s step-start infinite;
+}
+@keyframes para {
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes blink-caret {
+    0%{ border-color: transparent }
+    50% { border-color: red; }
+    100%{
+        border-right: 0px;
+        padding: 3px 5px;
+    }
+  }
+#h1{
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: -3px;
+    margin: 29px 8px;
+    padding: 9px 7px;
+    font-size: 50px;
+}
+.class1{
+    border: 5px inset red;
+    border-radius: 20px;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    animation-name: bord;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes bord {
+    from{
+        border: 5px groove red;
+    }
+    to{
+        border-radius: 50px;
+        border: 5px groove darkred;
+    }
+}
+#btn{
+    margin: 25px 18px;
+    padding: 16px 43px;
+    border-radius: 30px;
+    border: 3px solid red;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#btn:hover{
+    box-shadow: 0px 0px 70px red;
+    animation-name: abc;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes abc {
+    from{
+        border: 3px solid red;
+        background-color: black;
+        color: red;
+    }
+    to{
+        background-color: red;
+        color: black;
+    }
+}
