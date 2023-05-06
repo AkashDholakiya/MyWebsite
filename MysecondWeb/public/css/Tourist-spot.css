@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Pacifico&family=Roboto+Slab&family=Space+Grotesk:wght@300&family=Work+Sans:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 10;
+    width: 100%;
+}
+#nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 30px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#a3{
+    padding: 10px 32px;
+    margin: auto 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+#a3:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    margin: auto 26px;
+    border-radius: 18px;
+    box-shadow: -7px 0px 5px #44adc0, -7px 0px 10px #5d6a6b, -7px 0px 30px #1d5e61;
+    border-left: 5px solid #1eaece;
+}
+#a4{
+    padding: 10px 32px;
+    margin: auto 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+#a4:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    margin: auto 26px;
+    border-radius: 18px;
+    box-shadow: -7px 0px 5px #44adc0, -7px 0px 10px #5d6a6b, -7px 0px 30px #1d5e61;
+    border-left: 5px solid #1eaece;
+}
+#a1{
+    padding: 10px 32px;
+    margin: auto 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+#a1:hover{
+    padding: 10px 32px;
+    margin: auto 26px;
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+}
+#a2{
+    padding: 10px 32px;
+    margin: auto 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+#a2:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    margin: auto 26px;
+    border-radius: 18px;
+    box-shadow: 7px 0px 5px #44adc0, 7px 0px 10px #5d6a6b, 7px 0px 30px #1d5e61;
+    border-right: 5px solid #1eaece;
+}
+#a5{
+    padding: 10px 32px;
+    margin: auto 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+#a5:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    margin: auto 26px;
+    border-radius: 18px;
+    box-shadow: 7px 0px 5px #44adc0, 7px 0px 10px #5d6a6b, 7px 0px 30px #1d5e61;
+    border-right: 5px solid #1eaece;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.card img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.card-content{
+    position: absolute;
+    z-index: 3;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 24%;
+    left: 40px;
+    background-color: transparent;
+}
+.card-content h1,p{
+    background-color: transparent;
+    z-index: 100;
+}
+.card-content h1{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    background-color: transparent;
+}
+.card-content p{
+    margin-top: 23px;
+    font-size: 19px;
+    word-spacing: 0.5px;
+    width: 70%;
+    margin-bottom: 15px;
+}
+.card a{
+    position: absolute;
+    z-index: 100;
+    padding: 7px 18px;
+    border: 3px groove white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 36%;
+    left: 40px;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+.card a:hover{
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    border: 3px groove black;
+    color: black;
+}
+
+.amaze img{
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.amaze{
+    border-bottom: 5px groove white;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+#head1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin: 23px 34px;
+}
+#in-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#in-head:hover{
+    text-decoration: underline;
+}
+#in-head:active{
+    color: transparent;
+}
+#contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px groove white;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 23px 70px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 3px inset white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form form input{
+    width: 500px;
+    height: 25px;
+    text-align: left;
+    margin-top: 3px;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.form form select{
+    width: 500px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.form form label{
+    margin-top: 7px;
+    font-size: 15px;
+    width: 500px;
+}
+.form form textarea{
+    margin-top: 3px;
+    width: 500px;
+    height: 100px;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+#btn{
+    border: 3px groove white;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#btn:active{
+    background-color: white;
+    border: 3px groove black;
+    color: black;
+}
